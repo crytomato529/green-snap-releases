@@ -1,0 +1,19 @@
+name: 功能建议
+description: 从实际截图场景提出改进
+title: '[建议] '
+body:
+  - type: markdown
+    attributes:
+      value: 本反馈公开可见，请勿附私人截图、账号或客户资料。
+  - type: textarea
+    id: situation
+    attributes:
+      label: 遇到什么场景，目前怎么处理
+    validations:
+      required: true
+  - type: textarea
+    id: improvement
+    attributes:
+      label: 希望减少哪一步，完成后应是什么结果
+    validations:
+      required: true

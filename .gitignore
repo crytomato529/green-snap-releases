@@ -1,0 +1,10 @@
+downloads/
+verification/
+*.zip
+*.exe
+*.bundle
+*.pfx
+*.pem
+.env
+settings*.json
+Captures/

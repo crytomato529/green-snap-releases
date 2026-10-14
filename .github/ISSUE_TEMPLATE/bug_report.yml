@@ -1,0 +1,35 @@
+name: 问题反馈
+description: 截图、复制、保存或界面问题
+title: '[问题] '
+body:
+  - type: markdown
+    attributes:
+      value: 反馈公开可见。请勿上传个人截图、完整设置、剪贴板、客户资料或密钥；图片不是必需的。
+  - type: input
+    id: version
+    attributes:
+      label: 青截版本
+      placeholder: 例如 1.2.1-rc.1
+    validations:
+      required: true
+  - type: input
+    id: environment
+    attributes:
+      label: Windows 版本、屏幕数量与各自缩放比例
+      placeholder: 例如 Windows 11，单屏，175%
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: 操作步骤
+      description: 从启动开始，写出可以复现问题的步骤。
+    validations:
+      required: true
+  - type: textarea
+    id: result
+    attributes:
+      label: 预期与实际结果
+      description: 请分别说明是否复制成功、是否保存成功，以及错误详情；分享前删去个人信息。
+    validations:
+      required: true
